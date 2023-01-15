@@ -1,0 +1,20 @@
+Сравнение веток master и demo:
+1) содержимое визуально - не отличаются.
+2) строение коммитов - отличается (некоторые элементы master строятся из boots_buttons
+   (состоящий из boots и отдельно buttons), а demo состоит из отдельно boots и buttons.
+    demo изначально строился как hat, поэтому, в отличии от master, не требует слияния с hat).
+
+Количество коммитов = 5 (моих) + 6 (существующих)
+Названия (комментарии) коммитов:
+
+hometask_commit
+Merge branch 'boots_buttons'
+Merge remote-tracking branch 'origin/hat'
+Merge remote-tracking branch 'origin/buttons' into boots_buttons
+Merge remote-tracking branch 'origin/boots' into boots_buttons
+fix readme
+dots
+README added
+boots
+heat added
+init
